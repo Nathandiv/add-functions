@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Budget Expense Tracker</h1>
+
+    <div class="container">
+      <div class="form_container">
+        <div class="createform">
+          <label for="items">Items</label><br />
+          <input type="text" placeholder="Enter your items" id="items" /><br />
+          <br />
+          <label for="Amount">Amount</label><br />
+          <input type="number" placeholder="Enter your Amount " id="amount" required/><br>
+          <br>
+          <button type="submit">Add + </button>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h1>Table data</h1>
+    <hr>
+    <table border="1" id="table">
+        <thead>
+     <th> Items</th>
+     <th> Amount</th>
+     <th> Remove</th>
+        </thead>
+        <tbody id="table_data"></tbody>
+    </table>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
